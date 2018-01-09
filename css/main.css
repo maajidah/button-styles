@@ -11,3 +11,60 @@ div {
   padding: .5rem;
   text-align: center;
 }
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: .4em .75em;
+  border: 3px solid #333;
+  border-radius: 9px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+.btn:hover {
+  border-color: #000;
+  background-color: #000;
+}
+
+.btn-small {
+  font-size: .875rem;
+  padding-top: .3em;
+  padding-bottom: .3em;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+  border-color: #ccc;
+}
+
+.btn-subtle:hover {
+  border-color: #666;
+  background-color: #666;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #333;
+}
+
+.btn-ghost:hover {
+  border-color: #666;
+  background-color: #666;
+  color: #fff;
+}
+
+.btn-warning {
+  background-color: #f33;
+  border-color: #f33;
+}
+
+.btn-warning:hover {
+  border-color: #933;
+  background-color: #933;
+}
